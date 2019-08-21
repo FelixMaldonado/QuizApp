@@ -1,0 +1,60 @@
+/* ----------------------------------Header section of HTML---------------------------------- */
+h1{
+    text-align: center;
+    font-size: 100px;
+    margin-top: 10px;
+}
+
+.logo{
+    width: 10%;
+    height: 116px;
+}
+
+.left{
+    margin-left: 3%;
+    position: absolute;
+    left: -5px;
+}
+
+.right{
+    margin-right: 3%;
+    position: absolute;
+    right: -5px;  
+}
+/* ----------------------------------------------------------------------------------------- */
+
+
+/*----------------------------------Main section of HTML------------------------------------ */
+.questionCounter{
+    display: inline;
+}
+
+.
+
+
+.counter{
+    border: solid black 2px;
+    text-align: center;
+}
+
+li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.question{
+    border: solid black 2px;
+    margin-top: 10px;
+}
+
+.currentQuestion{
+    text-align: center;
+}
+
+.possibleAnswers{
+    margin-left:  39.5%;
+    padding: 0px;
+    /* margin-right: 40%; */
+}
+
+
