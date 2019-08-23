@@ -1,5 +1,41 @@
+/*------------------------------------Welcome Screen Header-----------------------------------*/
+.greeting{
+    text-align: center;
+    font-size: 90px;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+h2{
+    font-size: 85px;
+}
+
+.greetingSubmitButton{
+    font-size: 30px;
+    margin-left:  35%;
+    padding: 5px;
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-top: 10px;
+}
+/* ------------------------------------------------------------------------------------------ */
+/*----------------------------------------Correct Page----------------------------------------*/
+.correctSubmitButton{
+    font-size: 30px;
+    margin-left:  34%;
+    padding: 5px;
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-top: 10px;
+}
+/*--------------------------------------------------------------------------------------------*/
+/*----------------------------------------End of Game-----------------------------------------*/
+.endGame{
+    font-size: 65px;
+}
+/*--------------------------------------------------------------------------------------------*/
 /* ----------------------------------Header section of HTML---------------------------------- */
-h1{
+.questionTitle{
     text-align: center;
     font-size: 100px;
     margin-top: 10px;
@@ -60,7 +96,6 @@ li{
     padding: 5px;
     margin-top: 10px;
     font-size: 20px;
-    /* margin-right: 40%; */
 }
 
 
