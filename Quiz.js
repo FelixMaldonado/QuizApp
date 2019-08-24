@@ -3,8 +3,8 @@ const STORE = [
         answers: ['September 9, 2014', 'December 20, 2015', 'April 30, 2015', 'September 19, 2013'],
         correctIndx: 0,
         extraLore: 'Destiny was released by developer, Bungie who is famous for originally developing the Halo Series.',
-        prompt: 'When was the original Destiny released?'
-    },
+        prompt: 'When was the original Destiny released ?'
+     },
     {
         answers: ['Earth', 'Moon', 'Venus', 'Mars'],
         correctIndx: 0,
