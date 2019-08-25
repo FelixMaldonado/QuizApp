@@ -113,7 +113,7 @@ function rightOrWrong(){
                 questionCounter();
                 rightScoreCounter();
                 correctAnswer();
-            }else if(valueSelects !== null){
+            }else if(valueSelects == null){
                 alert("Please Select an answer.")
             }
             else{
