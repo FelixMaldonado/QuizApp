@@ -4,16 +4,6 @@
     background-image: url("https://cdn.mos.cms.futurecdn.net/HuGGeENt6kGyixe3hT9tnY-970-80.jpg");
 }
 
-.correct{
-    background-image: url("https://www.grabwallpapers.com/uploads/cache/2643635667/destiny-2-3840x2160-2019-4k-wallpaper-pJm-800x540-MM-100.jpg");
-    background-size: cover;
-}
-
-.incorrect{
-    background-image: url("http://markinternational.info/data/out/237/220755596-destiny-wallpaper-hd.jpg");
-}
-
-
 .greeting{
     text-align: center;
     font-size: 90px;
@@ -24,34 +14,6 @@
     padding: 0px;
     font-family: 'Abel', sans-serif;
 }
-
-.correctTitle{
-    text-align: center;
-    font-size: 90px;
-    margin-top: 10px;
-    margin-bottom: 0px;
-    text-decoration: underline;
-    color: rgba(17, 160, 36, 0.76);
-    padding: 0px;
-    font-family: 'Abel', sans-serif;
-    animation-name: smallToBig;
-    animation-duration: 4s;
-}
-
-.incorrectTitle{
-    text-align: center;
-    font-size: 90px;
-    margin-top: 10px;
-    margin-bottom: 0px;
-    text-decoration: underline;
-    color: rgb(141, 12, 12);
-    padding: 0px;
-    font-family: 'Abel', sans-serif;
-    animation-name: smallToBig;
-    animation-duration: 4s;
-}
-
-
 
 h2{
     font-size: 85px;
@@ -66,28 +28,11 @@ h2{
     margin-top: 10px;
     background: rgba(131, 57, 57, 0.842);
 }
-/* ------------------------------------------------------------------------------------------ */
-/*----------------------------------------End of Game-----------------------------------------*/
-.endGame{
-    font-size: 65px;
-}
-/*--------------------------------------------------------------------------------------------*/
-/* ----------------------------------Header section of HTML---------------------------------- */
-.questionTitle{
-    text-align: center;
-    font-size: 100px;
-    margin-top: 10px;
-    font-family: 'Abel', sans-serif;
-    margin: 0;
-    color: lightgoldenrodyellow
-}
 
 .logo{
     width: 10%;
     height: 116px;
-    border-radius: 50%;
-
-    
+    border-radius: 50%;    
 }
 
 .left{
@@ -96,99 +41,15 @@ h2{
     left: -5px;
 }
 
-.incorrectLogoLeft{
-    width: 10%;
-    height: 116px;
-    border-radius: 50%;
-    margin-left: 3%;
-    position: absolute;
-    left: -5px;
-    border: 2px solid silver;
-}
-
-.incorrectLogoRight{
-    width: 10%;
-    height: 116px;
-    border-radius: 50%;
-    margin-right: 3%;
-    position: absolute;
-    right: -5px;  
-    border: 2px solid silver;
-}
-
-
 .right{
     margin-right: 3%;
     position: absolute;
     right: -5px;  
 }
-/* ----------------------------------------------------------------------------------------- */
-
-
-/*----------------------------------Main section of HTML------------------------------------ */
-.questionCounter{
-    display: inline;
-}
-
-.counter{
-    text-align: center;
-    background-image: url("https://i.pinimg.com/originals/57/df/43/57df438f3fa38392ff8a3986febe604f.jpg");
-    background-size: cover;
-    color: rgba(131, 57, 57, 0.842);
-}
-
-.correctCounter{
-    text-align: center;
-    color: rgba(131, 57, 57, 0.842); 
-    font-size: 30px;
-}
-
-.incorrectCounter{
-    text-align: center;
-    color: black;
-    font-size: 30px;
-}
-
-.lore,.givenAnswer{
-    font-weight: bold;
-    font-family: 'Righteous', cursive;
-    color: rgb(243, 211, 211);
-    background: rgb(0, 0, 0, .6);
-    border-radius: 25%;
-    animation-name: smallToBigLore;
-    animation-duration: 4s;
-    font-size: 25px;
-}
 
 li{
     list-style-type: none;
     margin-bottom: 10px;
-}
-
-/* #questionAndAnswer{
-    border: solid black 2px;
-} */
-
-.currentQuestion{
-    text-align: center;
-    font-size: 70px;
-    font-family: 'Abel', sans-serif;
-    color: lightgray;
-}
-
-.answers{
-    margin-left:  45%;
-    padding: 0px;
-    /* margin-right: 40%; */
-}
-
-.questionsubmitButton{
-    margin-left: -5%;
-    padding: 5px;
-    margin-top: 10px;
-    font-size: 20px;
-    padding-left: 10%;
-    padding-right: 10%
 }
 
 .quizCounter{
@@ -213,6 +74,78 @@ label{
     padding-bottom: 10px;
     color: lightgray;
 }
+/*-------------------------------------------------------------------------------------------*/
+/*--------------------------------------Question Screen--------------------------------------*/
+.questionTitle{
+    text-align: center;
+    font-size: 100px;
+    margin-top: 10px;
+    font-family: 'Abel', sans-serif;
+    margin: 0;
+    color: lightgoldenrodyellow
+}
+
+.questionCounter{
+    display: inline;
+}
+
+.currentQuestion{
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Abel', sans-serif;
+    color: lightgray;
+}
+
+.answers{
+    margin-left:  45%;
+    padding: 0px;
+    /* margin-right: 40%; */
+}
+
+.questionsubmitButton{
+    margin-left: -5%;
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 20px;
+    padding-left: 10%;
+    padding-right: 10%
+}
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------Correct Screen-----------------------------------------*/
+.correct{
+    background-image: url("https://www.grabwallpapers.com/uploads/cache/2643635667/destiny-2-3840x2160-2019-4k-wallpaper-pJm-800x540-MM-100.jpg");
+    background-size: cover;
+}
+
+.correctTitle{
+    text-align: center;
+    font-size: 90px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-decoration: underline;
+    color: rgba(17, 160, 36, 0.76);
+    padding: 0px;
+    font-family: 'Abel', sans-serif;
+    animation-name: smallToBig;
+    animation-duration: 4s;
+}
+
+.correctCounter{
+    text-align: center;
+    color: rgba(131, 57, 57, 0.842); 
+    font-size: 30px;
+}
+
+.lore,.givenAnswer{
+    font-weight: bold;
+    font-family: 'Righteous', cursive;
+    color: rgb(243, 211, 211);
+    background: rgb(0, 0, 0, .6);
+    border-radius: 25%;
+    animation-name: smallToBigLore;
+    animation-duration: 4s;
+    font-size: 25px;
+}
 
 .correctScore{
     font-weight: bold;
@@ -231,6 +164,64 @@ label{
     padding-right: 10%;
 }
 
+/*-------------------------------------------------------------------------------------------*/
+/*------------------------------------Incorrect Screen----------------------------------------*/
+.incorrect{
+    background-image: url("http://markinternational.info/data/out/237/220755596-destiny-wallpaper-hd.jpg");
+}
+
+.incorrectTitle{
+    text-align: center;
+    font-size: 90px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-decoration: underline;
+    color: rgb(141, 12, 12);
+    padding: 0px;
+    font-family: 'Abel', sans-serif;
+    animation-name: smallToBig;
+    animation-duration: 4s;
+}
+
+.incorrectLogoLeft{
+    width: 10%;
+    height: 116px;
+    border-radius: 50%;
+    margin-left: 3%;
+    position: absolute;
+    left: -5px;
+    border: 2px solid silver;
+}
+
+.incorrectLogoRight{
+    width: 10%;
+    height: 116px;
+    border-radius: 50%;
+    margin-right: 3%;
+    position: absolute;
+    right: -5px;  
+    border: 2px solid silver;
+}
+
+.incorrectCounter{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+/*---------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------ */
+/*----------------------------------------End of Game-----------------------------------------*/
+.endGame{
+    font-size: 65px;
+}
+
+.ready{
+    text-align: center;
+    background-image: url("https://i.pinimg.com/originals/57/df/43/57df438f3fa38392ff8a3986febe604f.jpg");
+    background-size: cover;
+    color: rgba(131, 57, 57, 0.842);
+}
+
 .resetButton{
     margin-left: 35%;
     padding: 5px;
@@ -239,6 +230,8 @@ label{
     padding-left: 10%;
     padding-right: 10%;
 }
+/*--------------------------------------------------------------------------------------------*/
+/*--------------------------------------KeyFrames---------------------------------------------*/
 
 @keyframes smallToBig{
     from{font-size: 5px;}
@@ -249,6 +242,70 @@ label{
     from{font-size: 5px;}
     to {font-size: 25px;}
 }
+/*-------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------Media Queries------------------------------------------------*/
 
+@media screen and (max-width: 1340px){
+    .greeting,.questionTitle{
+        font-size: 60px;
+    }
+    
+    .logo{
+        width: 8%;
+        height: 75px;
+        border-radius: 50%;
+    }
+
+    .incorrectLogoRight{
+        width: 8%;
+        height: 75px;
+        border-radius: 50%;
+    }
+
+    .incorrectLogoLeft{
+        width: 8%;
+        height: 75px;
+        border-radius: 50%;
+    }
+
+    .scoreCounter{
+        margin-top: 10px;
+    }
+
+}
+
+@media screen and (max-width: 916px){
+    .greeting{
+        font-size: 40px;
+    }
+    .currentQuestion, .incorrectTitle, .correctTitle{
+        font-size: 50px;
+    }
+    .logo{
+        width: 5%;
+        height: 58px;
+        border-radius: 50%;
+    }
+
+    .incorrectLogoLeft{
+        width: 5%;
+        height: 58px;
+        border-radius: 50%;
+    }
+    .incorrectLogoRight{
+        width: 5%;
+        height: 58px;
+        border-radius: 50%;
+    }
+}
+
+@media screen and (max-width: 581px){
+    h2{
+        font-size: 70px;
+    }
+    .currentQuestion{
+        font-size: 40px;
+    }
+}
 
 

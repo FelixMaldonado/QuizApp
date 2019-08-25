@@ -6,20 +6,20 @@ const STORE = [
         prompt: 'When was the original Destiny released ?'
      },
     {
-        answers: ['Earth', 'Moon', 'Venus', 'Mars'],
-        correctIndx: 0,
+        answers: ['Mars', 'Moon', 'Venus', 'Earth'],
+        correctIndx: 3,
         extraLore: 'When first starting the game your ghost finds you laying as a corpse, in which it uses the light to reanimate you into a guardian.',
         prompt: 'What planet are you on in the opening mission of Destiny 1?' 
     },
     {
-        answers: ['Zavala, Ikora, Cayde-6', 'Zavala, Cayde-6, Osiris', 'Ikora, Sloane, Caliban-8', 'Zavala, Shaxx, Saint-14'],
-        correctIndx: 0,
+        answers: ['Zavala, Cayde-6, Osiris', 'Zavala, Ikora, Cayde-6', 'Ikora, Sloane, Caliban-8', 'Zavala, Shaxx, Saint-14'],
+        correctIndx: 1,
         extraLore: 'Zavala is the Commander of the Vanguard and is responsible for coordinating the defense of the city, Zavala helps to mentor and outfit other Titans.',
         prompt: 'Who are the members of the Vanguard at the launch of Destiny 2?' 
     },
     {
-        answers: ['Cabal', 'Fallen', 'Human', 'Taken'],
-        correctIndx: 0,
+        answers: ['Fallen', 'Human', 'Cabal', 'Taken'],
+        correctIndx: 2,
         extraLore: 'He is also known as Ghost Primus',
         prompt: 'What race is Dominus Ghual?' 
     },
@@ -30,14 +30,14 @@ const STORE = [
         prompt: 'Which legion does Dominus Ghual belong too?' 
     },
     {
-        answers: ['Crota', 'Ir Anuk', 'Xivu Arath', 'Auryx'],
-        correctIndx: 0,
+        answers: ['Ir Anuk', 'Xivu Arath', 'Auryx', 'Crota'],
+        correctIndx: 3,
         extraLore: 'Crota wielded the Sword of Crota which he used to kill a large number of Guardians during the Vanguard offensive to retake the Moon.',
         prompt: "What is Oryx's son named?" 
     },
     {
-        answers: ['Dreadnaught', 'Harbringer', 'Shrine', 'Falcon'],
-        correctIndx: 0,
+        answers: ['Harbringer', 'Dreadnaught', 'Shrine', 'Falcon'],
+        correctIndx: 1,
         extraLore: "Though the Dreadnaught is a Hive ship, its infact protected by Oryx's personal army of Taken.",
         prompt: "What is the name of Oryx's ship?" 
     },
@@ -48,8 +48,8 @@ const STORE = [
         prompt: 'When did Destiny 2 release?' 
     },
     {
-        answers: ['The Leviathan', 'Revenge of Calus', 'Crotas End', 'Wrath of the machine'],
-        correctIndx: 0,
+        answers: [ 'Revenge of Calus', 'Crotas End', 'The Leviathan', 'Wrath of the machine'],
+        correctIndx: 2,
         extraLore: 'Upon release of the Leviathan it was recommended you have a light level of 270-275.',
         prompt: 'What was the first Raid in Destiny 2 called?' 
     },
