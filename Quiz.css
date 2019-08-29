@@ -20,18 +20,21 @@ h2{
 }
 
 .greetingSubmitButton{
+    margin-left: 35%;
+    margin-right: 35%;
     font-size: 30px;
-    margin-left:  35%;
     padding: 5px;
     padding-right: 10%;
     padding-left: 10%;
     margin-top: 10px;
-    background: rgba(131, 57, 57, 0.842);
+    display:block;
+    margin: 0 auto;
+    background: green;
 }
 
 .logo{
     width: 10%;
-    height: 116px;
+    height: 10%;
     border-radius: 50%;    
 }
 
@@ -59,7 +62,7 @@ li{
     font-size: 30px;
     font-weight: bold;
     font-family: 'Abel', sans-serif;
-    background-image: linear-gradient(to right, rgb(0, 0, 20) , lightgray);
+    background-image: linear-gradient(to right, rgb(57, 57, 131) , lightgray);
 }
 
 .scoreCounter{
@@ -108,13 +111,15 @@ label{
     margin-top: 10px;
     font-size: 20px;
     padding-left: 10%;
-    padding-right: 10%
+    padding-right: 10%;
+    background-color: green;
 }
 /*-------------------------------------------------------------------------------------------*/
 /*-------------------------------------Correct Screen-----------------------------------------*/
 .correct{
     background-image: url("https://www.grabwallpapers.com/uploads/cache/2643635667/destiny-2-3840x2160-2019-4k-wallpaper-pJm-800x540-MM-100.jpg");
-    background-size: cover;
+    object-fit: cover;
+    
 }
 
 .correctTitle{
@@ -126,15 +131,20 @@ label{
     color: rgba(17, 160, 36, 0.76);
     padding: 0px;
     font-family: 'Abel', sans-serif;
-    animation-name: smallToBig;
-    animation-duration: 4s;
+    /* animation-name: smallToBig;
+    animation-duration: 4s; */
 }
 
 .correctCounter{
     text-align: center;
-    color: rgba(131, 57, 57, 0.842); 
     font-size: 30px;
+    font-weight: bold;
 }
+
+.correctScore,.wrong{
+    background-image: linear-gradient(to right, rgb(187, 187, 211) , rgb(143, 226, 147, .25));
+}
+
 
 .lore,.givenAnswer{
     font-weight: bold;
@@ -142,8 +152,8 @@ label{
     color: rgb(243, 211, 211);
     background: rgb(0, 0, 0, .6);
     border-radius: 25%;
-    animation-name: smallToBigLore;
-    animation-duration: 4s;
+    /* animation-name: smallToBigLore;
+    animation-duration: 4s; */
     font-size: 25px;
 }
 
@@ -162,6 +172,7 @@ label{
     font-size: 20px;
     padding-left: 10%;
     padding-right: 10%;
+    background-color: green;
 }
 
 /*-------------------------------------------------------------------------------------------*/
@@ -299,13 +310,88 @@ label{
     }
 }
 
-@media screen and (max-width: 581px){
+@media screen and (max-width: 768px){
+/*-----------------------------------------------Title Screen----------------------------------------------------*/   
+    .ready{
+        background-image: url("http://www.baltana.com/files/wallpapers-1/Destiny-New-Wallpapers-05415.jpg");
+    }
+    
+    .greeting{
+        font-size:40px;
+        width: 100%;
+    }
+
+    .logo{
+        height: 50px;
+        width: 50px;
+    }
+    
     h2{
         font-size: 70px;
     }
+
     .currentQuestion{
         font-size: 40px;
     }
+/*----------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------Question Screen-------------------------------------------------------*/
+    .currentQuestion{
+        width: 100%;
+        padding: 0;
+    }    
+
+    .questionTitle{
+        font-size: 50px
+    }
+
+    .right{
+        margin-right: 3%;
+        position: absolute;
+        right: -5px; 
+        top: 10px; 
+    }
+
+    .questionsubmitButton{
+        display:block;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+    
+    .answers{
+        display:block;
+        margin: 0 auto;
+        padding-left: 25%;
+    }
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------Correct Screen Mobile---------------------------------------------------------------*/
+    /* .correctTitle{
+        
+        animation-name: smallToBig;
+        animation-duration: 4s;
+        font-size: 50px;
+    } */
+
+    .correctScore{
+        margin-bottom: 20px;
+    }
+    
+    .wrong{
+        margin-top: 0px;
+    }
+
+    .lore{
+        font-size: 10px;
+    }
+
+    .submitButton{
+        display:block;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+    
+
+
+
 }
 
 

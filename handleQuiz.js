@@ -33,8 +33,9 @@ function renderPage(){
                                 '<label for="possibleAnswers2"><input id= "possibleAnswers2" type="radio" name="question1" value="1" required/>' + STORE[question].answers[1] +  '</label><br>' +
                                 '<label for="possibleAnswers3"><input id= "possibleAnswers3" type="radio" name="question1" value="2" required/>' + STORE[question].answers[2] + '</label><br>' +
                                 '<label for="possibleAnswers4"><input id= "possibleAnswers4" type="radio" name="question1" value="3" required/>' + STORE[question].answers[3] + '</label><br>' +
-                            '<input class="questionsubmitButton" type="submit" value="Submit">' +
+                            
                             '</div>' +
+                            '<input class="questionsubmitButton" type="submit" value="Submit">' +
                             '<div class="questions"></div>' +
                                     
                 '</fieldset>' +
