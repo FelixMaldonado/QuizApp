@@ -6,7 +6,7 @@
 
 .greeting{
     text-align: center;
-    font-size: 90px;
+    font-size: 25px;
     margin-top: 10px;
     margin-bottom: 0px;
     text-decoration: underline;
@@ -244,7 +244,7 @@ label{
 /*--------------------------------------------------------------------------------------------*/
 /*--------------------------------------KeyFrames---------------------------------------------*/
 
-@keyframes smallToBig{
+/* @keyframes smallToBig{
     from{font-size: 5px;}
     to {font-size: 90px;}
 }
@@ -252,11 +252,11 @@ label{
 @keyframes smallToBigLore{
     from{font-size: 5px;}
     to {font-size: 25px;}
-}
+} */
 /*-------------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------Media Queries------------------------------------------------*/
 
-@media screen and (max-width: 1340px){
+/* @media screen and (max-width: 1340px){
     .greeting,.questionTitle{
         font-size: 60px;
     }
@@ -310,9 +310,9 @@ label{
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 380px){ */
 /*-----------------------------------------------Title Screen----------------------------------------------------*/   
-    .ready{
+    /* .ready{
         background-image: url("http://www.baltana.com/files/wallpapers-1/Destiny-New-Wallpapers-05415.jpg");
     }
     
@@ -333,9 +333,53 @@ label{
     .currentQuestion{
         font-size: 40px;
     }
+
+    @media screen and (min-width: 381px){
+        .ready{
+            background-image: url("http://www.baltana.com/files/wallpapers-1/Destiny-New-Wallpapers-05415.jpg");
+        }
+        .greeting{
+            font-size: 20px;
+        }
+    
+        .logo{
+            height: 40px;
+            width: 40px;
+        }
+    }
+    
+    @media screen and (min-width: 495px){
+        .greeting{
+            font-size: 35px;
+        }
+    }
+    
+    @media screen and (min-width: 667px){
+        .greeting{
+            font-size: 50px;
+        }
+    
+        .logo{
+            height: 60px;
+            width: 60px;
+        }
+    }
+    
+    @media screen and (min-width: 1000px){
+        .greeting{
+            font-size: 70px;
+        }
+    
+        .logo{
+            height: 80px;
+            width: 80px;
+        }
+    } */
 /*----------------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------Question Screen-------------------------------------------------------*/
-    .currentQuestion{
+/* @media screen and (max-width: 380px){    
+
+.currentQuestion{
         width: 100%;
         padding: 0;
     }    
@@ -362,6 +406,14 @@ label{
         margin: 0 auto;
         padding-left: 25%;
     }
+
+}
+
+@media screen and (min-width: 381px){
+    .questionTitle{
+        font-size: 30px;
+    }
+} */
 /*-----------------------------------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------Correct Screen Mobile---------------------------------------------------------------*/
     /* .correctTitle{
@@ -371,7 +423,7 @@ label{
         font-size: 50px;
     } */
 
-    .correctScore{
+    /* .correctScore{
         margin-bottom: 20px;
     }
     
@@ -392,6 +444,8 @@ label{
 
 
 
-}
+} */
+
+
 
 
