@@ -80,7 +80,7 @@ function wrongAnswer(){
     $('.newPage').remove();
     let showAnswer = STORE[question-1].correctIndx;
     // console.log(showAnswer);
-    $('.OpeningPage').append('<div class = "newPage"><header class="header">' +
+    $('.OpeningPage').append('<div class = "newPage"><header class="wrongHeader">' +
     '<h1 class="incorrectTitle"><img class="logo left" src="https://img05.deviantart.net/201c/i/2015/166/8/5/oryx__the_taken_king_by_b1izzardhawkfa-d8xhffu.png" alt="Oryx">***Incorrect***</h1>' +
     '<div class="centeredLogo">'+
         '<img class="logo right" src="https://cdn.vox-cdn.com/thumbor/xDzUsp6lU_D6tVJaZjpKxwjuiKg=/0x0:1920x1080/920x613/filters:focal(807x387:1113x693):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/64702054/calus.0.png" alt="Emperor Calus">'+

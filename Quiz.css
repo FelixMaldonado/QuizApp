@@ -481,7 +481,7 @@ html{
     margin-top: 30px;
     margin-bottom: 0px;
     text-decoration: underline;
-    color: rgba(212, 76, 76, 0.76);
+    color: rgb(1, 2, 20);
     padding: 0px;
     font-family: 'Abel', sans-serif;
 }
@@ -498,6 +498,9 @@ html{
     }
 }
 
+.wrongHeader{
+    background-image: linear-gradient(to right, rgb(187, 187, 211, 0.3) , rgba(209, 23, 23, 0.4));
+}
 /* .incorrectLogoLeft{
     width: 10%;
     height: 116px;
