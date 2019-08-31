@@ -2,90 +2,270 @@
 .OpeningPage{
     height: 100%;
     background-image: url("https://cdn.mos.cms.futurecdn.net/HuGGeENt6kGyixe3hT9tnY-970-80.jpg");
+    margin: auto;
+}
+
+.greetingMain{
+    margin-top: 90px;
 }
 
 .greeting{
     text-align: center;
-    font-size: 25px;
+    font-size: 40px;
     margin-top: 10px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     text-decoration: underline;
     color: lightgoldenrodyellow;
     padding: 0px;
     font-family: 'Abel', sans-serif;
 }
 
+@media only screen and (min-width:365px){
+    .greeting{
+        font-size: 50px;
+    }
+}
+
+@media only screen and (min-width:411px){
+    .greeting{
+        font-size: 60px;
+    }
+}
+
+
+@media only screen and (min-width:548px){
+    .greeting{
+        font-size: 40px;
+    }
+}
+
+@media only screen and (min-width:700px){
+    .greeting{
+        font-size: 45px; 
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (min-width:768px){
+    .greeting{
+        font-size: 55px; 
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (min-width:925px){
+    .greeting{
+        font-size: 60px; 
+        margin-top: 20px;
+    }
+}
+@media only screen and (min-width:1300px){
+    .greeting{
+        font-size: 80px; 
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (min-width:1700px){
+    .greeting{
+        font-size: 110px; 
+        margin-top: 20px;
+    }
+}
+
+
 h2{
-    font-size: 85px;
+    font-size: 50px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+@media only screen and (min-width:411px){
+    h2{
+        font-size: 70px;
+    }
+}
+
+@media only screen and (min-width:548px){
+    h2{
+        margin-top: 125px;
+    }
+}
+
+@media only screen and (min-width:700px){
+    h2{
+        font-size: 50px; 
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width:768px){
+    h2{
+        font-size: 70px; 
+}
+
+@media only screen and (min-width:1300px){
+    h2{
+        font-size: 80px; 
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+.buttonHolder{
+    display: flex;
 }
 
 .greetingSubmitButton{
-    margin-left: 35%;
-    margin-right: 35%;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 30px;
     padding: 5px;
     padding-right: 10%;
     padding-left: 10%;
     margin-top: 10px;
-    display:block;
-    margin: 0 auto;
     background: green;
+    width: 50%;
+}
+@media only screen and (min-width:1000px){
+    .greetingSubmitButton{
+        font-size: 50px; 
+    }
 }
 
 .logo{
-    width: 10%;
-    height: 10%;
-    border-radius: 50%;    
+    width: 20%;
+    height: 15%;
+    border-radius: 50%;
+}
+
+@media only screen and (min-width:411px){
+    .logo{
+        width: 90px;
+        height: 70px;  
+    }
+}
+
+@media only screen and (min-width:548px){
+    .logo{
+        width: 90px;
+        height: 80px;  
+    }
+}
+
+@media only screen and (min-width:768px){
+    .logo{
+        margin-top: 20px;
+        width: 90px;
+        height: 80px;  
+    }
+}
+
+@media only screen and (min-width:1200px){
+    .logo{
+        width: 150px;
+        height: 125px;  
+    }
+}
+
+@media only screen and (min-width:1600px){
+    .logo{
+        width: 200px;
+        height: 180px;  
+    }
 }
 
 .left{
     margin-left: 3%;
     position: absolute;
     left: -5px;
+    visibility: hidden;
+}
+
+@media only screen and (min-width:700px){
+    .left{
+        margin-left: 3%;
+        position: absolute;
+        left: -5px;
+        visibility: visible;
+        top: 16px;
+        border: solid 2px white;
+    }
+}
+
+.centeredLogo{
+    max-width: 70px;
+    margin: 0 auto;
 }
 
 .right{
-    margin-right: 3%;
     position: absolute;
-    right: -5px;  
-}
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    border: solid 2px white;
+    }
+
+@media only screen and (min-width:700px){
+    .right{
+        margin-right: 3%;
+        position: absolute;
+        right: -5px;
+        top: 16px;
+        border: solid 2px white;
+        }
+    }
+    /* @media only screen and (min-width:411px){
+        .right{
+            width: 90px;
+            height: 70px;  
+        }
+    } */
+
+    @media only screen and (min-width:768px){
+        .right{
+            margin-top: 20px;
+            /* width: 90px;
+            height: 80px;   */
+        }
+    }
+
+    /* @media only screen and (min-width:1200px){
+        .right{
+            width: 150px;
+            height: 125px;  
+        }
+    } */
+
 
 li{
     list-style-type: none;
     margin-bottom: 10px;
-}
+    }
 
-.quizCounter{
-    text-align: center;
-    background-size: cover;
-    color: rgba(131, 57, 57, 0.842);
-    font-size: 30px;
-    font-weight: bold;
-    font-family: 'Abel', sans-serif;
-    background-image: linear-gradient(to right, rgb(57, 57, 131) , lightgray);
-}
 
-.scoreCounter{
-    margin-bottom: 0px;
-    font-weight: bold;
-    
-}
-
-label{
-    font-family: 'Acme', sans-serif;
-    font-size: 20px;
-    padding-bottom: 10px;
-    color: lightgray;
-}
 /*-------------------------------------------------------------------------------------------*/
 /*--------------------------------------Question Screen--------------------------------------*/
 .questionTitle{
     text-align: center;
-    font-size: 100px;
+    font-size: 55px;
     margin-top: 10px;
     font-family: 'Abel', sans-serif;
     margin: 0;
     color: lightgoldenrodyellow
+}
+
+@media only screen and (min-width:700px){
+    .questionTitle{
+        font-size: 80px; 
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (min-width: 900px){
+    .questionTitle{
+        font-size: 100px;
+    }
 }
 
 .questionCounter{
@@ -94,37 +274,89 @@ label{
 
 .currentQuestion{
     text-align: center;
-    font-size: 70px;
+    font-size: 30px;
     font-family: 'Abel', sans-serif;
     color: lightgray;
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width:700px){
+    .currentQuestion{
+        font-size: 50px;
+    }
 }
 
 .answers{
-    margin-left:  45%;
-    padding: 0px;
-    /* margin-right: 40%; */
+    text-align: center;
 }
 
+label{
+    font-family: 'Acme', sans-serif;
+    font-size: 15px;
+    padding-bottom: 10px;
+    color: lightgray;
+}
+
+@media only screen and (min-width:700px){
+    label{
+        font-size: 25px;
+    }
+}
+
+.scoreCounter{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    
+}
+
+.quizCounter{
+    text-align: center;
+    margin-top: 90px;
+    background-size: cover;
+    color: rgba(131, 57, 57, 0.842);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Abel', sans-serif;
+    background-image: linear-gradient(to right, rgb(57, 57, 131) , lightgray);
+}
+
+@media only screen and (min-width:700px){
+    .quizCounter{
+        font-size: 35px;
+        margin-top: 70px;
+    }
+}
+
+
 .questionsubmitButton{
-    margin-left: -5%;
-    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 10%;
     margin-top: 10px;
     font-size: 20px;
-    padding-left: 10%;
-    padding-right: 10%;
+    /* padding-left: 10%;
+    padding-right: 10%; */
     background-color: green;
+    width: 50%;
 }
+
 /*-------------------------------------------------------------------------------------------*/
 /*-------------------------------------Correct Screen-----------------------------------------*/
 .correct{
-    background-image: url("https://www.grabwallpapers.com/uploads/cache/2643635667/destiny-2-3840x2160-2019-4k-wallpaper-pJm-800x540-MM-100.jpg");
-    object-fit: cover;
-    
+    background-image: url("https://kenikin.com/w/destiny-Wallpaper-HD-number-J5A.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+html{
+    height: 100%;
 }
 
 .correctTitle{
     text-align: center;
-    font-size: 90px;
+    font-size: 70px;
     margin-top: 10px;
     margin-bottom: 0px;
     text-decoration: underline;
@@ -135,14 +367,26 @@ label{
     animation-duration: 4s; */
 }
 
-.correctCounter{
+@media only screen and (min-width: 1150px){
+    .correctTitle{
+        font-size: 100px;
+    }
+}
+
+.correctCounter, .incorrectCounter{
     text-align: center;
     font-size: 30px;
     font-weight: bold;
+    margin-top: 100px;
+}
+@media only screen and (min-width: 1300px){
+    .correctCounter, .incorrectCounter{
+        font-size: 45px;
+    }
 }
 
 .correctScore,.wrong{
-    background-image: linear-gradient(to right, rgb(187, 187, 211) , rgb(143, 226, 147, .25));
+    background-image: linear-gradient(to right, rgb(187, 187, 211) , rgb(143, 226, 147, .50));
 }
 
 
@@ -157,6 +401,12 @@ label{
     font-size: 25px;
 }
 
+@media only screen and (min-width: 1300px){
+    .lore, .givenAnswer{
+        font-size: 45px;
+    }
+}
+
 .correctScore{
     font-weight: bold;
 }
@@ -166,35 +416,43 @@ label{
 }
 
 .submitButton{
-    margin-left: 35%;
+    margin-left: auto;
+    margin-right: auto;
     padding: 5px;
     margin-top: 10px;
     font-size: 20px;
     padding-left: 10%;
     padding-right: 10%;
     background-color: green;
+    width: 50%;
+}
+@media only screen and (min-width: 1300px){
+    .submitButton{
+        font-size: 40px;
+    }
 }
 
 /*-------------------------------------------------------------------------------------------*/
 /*------------------------------------Incorrect Screen----------------------------------------*/
 .incorrect{
     background-image: url("http://markinternational.info/data/out/237/220755596-destiny-wallpaper-hd.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .incorrectTitle{
     text-align: center;
-    font-size: 90px;
+    font-size: 50px;
     margin-top: 10px;
     margin-bottom: 0px;
     text-decoration: underline;
-    color: rgb(141, 12, 12);
+    color: rgba(141, 12, 12, 0.76);
     padding: 0px;
     font-family: 'Abel', sans-serif;
-    animation-name: smallToBig;
-    animation-duration: 4s;
 }
 
-.incorrectLogoLeft{
+/* .incorrectLogoLeft{
     width: 10%;
     height: 116px;
     border-radius: 50%;
@@ -202,9 +460,9 @@ label{
     position: absolute;
     left: -5px;
     border: 2px solid silver;
-}
+} */
 
-.incorrectLogoRight{
+/* .incorrectLogoRight{
     width: 10%;
     height: 116px;
     border-radius: 50%;
@@ -212,7 +470,7 @@ label{
     position: absolute;
     right: -5px;  
     border: 2px solid silver;
-}
+} */
 
 .incorrectCounter{
     text-align: center;
@@ -228,9 +486,11 @@ label{
 
 .ready{
     text-align: center;
-    background-image: url("https://i.pinimg.com/originals/57/df/43/57df438f3fa38392ff8a3986febe604f.jpg");
+    /* background-image: url("https://i.pinimg.com/originals/57/df/43/57df438f3fa38392ff8a3986febe604f.jpg"); */
+    background-image: url("https://data.whicdn.com/images/21060713/large.jpg");
     background-size: cover;
-    color: rgba(131, 57, 57, 0.842);
+    color: lightgoldenrodyellow;
+    /* border-radius: 25%; */
 }
 
 .resetButton{
@@ -254,197 +514,7 @@ label{
     to {font-size: 25px;}
 } */
 /*-------------------------------------------------------------------------------------------------------------*/
-/*------------------------------------------------Media Queries------------------------------------------------*/
 
-/* @media screen and (max-width: 1340px){
-    .greeting,.questionTitle{
-        font-size: 60px;
-    }
-    
-    .logo{
-        width: 8%;
-        height: 75px;
-        border-radius: 50%;
-    }
-
-    .incorrectLogoRight{
-        width: 8%;
-        height: 75px;
-        border-radius: 50%;
-    }
-
-    .incorrectLogoLeft{
-        width: 8%;
-        height: 75px;
-        border-radius: 50%;
-    }
-
-    .scoreCounter{
-        margin-top: 10px;
-    }
-
-}
-
-@media screen and (max-width: 916px){
-    .greeting{
-        font-size: 40px;
-    }
-    .currentQuestion, .incorrectTitle, .correctTitle{
-        font-size: 50px;
-    }
-    .logo{
-        width: 5%;
-        height: 58px;
-        border-radius: 50%;
-    }
-
-    .incorrectLogoLeft{
-        width: 5%;
-        height: 58px;
-        border-radius: 50%;
-    }
-    .incorrectLogoRight{
-        width: 5%;
-        height: 58px;
-        border-radius: 50%;
-    }
-}
-
-@media screen and (max-width: 380px){ */
-/*-----------------------------------------------Title Screen----------------------------------------------------*/   
-    /* .ready{
-        background-image: url("http://www.baltana.com/files/wallpapers-1/Destiny-New-Wallpapers-05415.jpg");
-    }
-    
-    .greeting{
-        font-size:40px;
-        width: 100%;
-    }
-
-    .logo{
-        height: 50px;
-        width: 50px;
-    }
-    
-    h2{
-        font-size: 70px;
-    }
-
-    .currentQuestion{
-        font-size: 40px;
-    }
-
-    @media screen and (min-width: 381px){
-        .ready{
-            background-image: url("http://www.baltana.com/files/wallpapers-1/Destiny-New-Wallpapers-05415.jpg");
-        }
-        .greeting{
-            font-size: 20px;
-        }
-    
-        .logo{
-            height: 40px;
-            width: 40px;
-        }
-    }
-    
-    @media screen and (min-width: 495px){
-        .greeting{
-            font-size: 35px;
-        }
-    }
-    
-    @media screen and (min-width: 667px){
-        .greeting{
-            font-size: 50px;
-        }
-    
-        .logo{
-            height: 60px;
-            width: 60px;
-        }
-    }
-    
-    @media screen and (min-width: 1000px){
-        .greeting{
-            font-size: 70px;
-        }
-    
-        .logo{
-            height: 80px;
-            width: 80px;
-        }
-    } */
-/*----------------------------------------------------------------------------------------------------------------*/
-/*------------------------------------------Question Screen-------------------------------------------------------*/
-/* @media screen and (max-width: 380px){    
-
-.currentQuestion{
-        width: 100%;
-        padding: 0;
-    }    
-
-    .questionTitle{
-        font-size: 50px
-    }
-
-    .right{
-        margin-right: 3%;
-        position: absolute;
-        right: -5px; 
-        top: 10px; 
-    }
-
-    .questionsubmitButton{
-        display:block;
-        margin: 0 auto;
-        margin-top: 15px;
-    }
-    
-    .answers{
-        display:block;
-        margin: 0 auto;
-        padding-left: 25%;
-    }
-
-}
-
-@media screen and (min-width: 381px){
-    .questionTitle{
-        font-size: 30px;
-    }
-} */
-/*-----------------------------------------------------------------------------------------------------------------------------------*/
-/*------------------------------------------------Correct Screen Mobile---------------------------------------------------------------*/
-    /* .correctTitle{
-        
-        animation-name: smallToBig;
-        animation-duration: 4s;
-        font-size: 50px;
-    } */
-
-    /* .correctScore{
-        margin-bottom: 20px;
-    }
-    
-    .wrong{
-        margin-top: 0px;
-    }
-
-    .lore{
-        font-size: 10px;
-    }
-
-    .submitButton{
-        display:block;
-        margin: 0 auto;
-        margin-top: 15px;
-    }
-    
-
-
-
-} */
 
 
 
