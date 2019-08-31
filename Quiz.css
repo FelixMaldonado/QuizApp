@@ -42,14 +42,7 @@
 @media only screen and (min-width:700px){
     .greeting{
         font-size: 45px; 
-        margin-top: 20px;
-    }
-}
-
-@media only screen and (min-width:768px){
-    .greeting{
-        font-size: 55px; 
-        margin-top: 50px;
+        margin-top: 40px;
     }
 }
 
@@ -99,11 +92,6 @@ h2{
     }
 }
 
-@media only screen and (min-width:768px){
-    h2{
-        font-size: 70px; 
-}
-
 @media only screen and (min-width:1300px){
     h2{
         font-size: 80px; 
@@ -121,11 +109,11 @@ h2{
     margin-right: auto;
     font-size: 30px;
     padding: 5px;
-    padding-right: 10%;
-    padding-left: 10%;
+    padding-right: 15px;
+    padding-left: 15px;
     margin-top: 10px;
     background: green;
-    width: 50%;
+    /* width: 50%; */
 }
 @media only screen and (min-width:1000px){
     .greetingSubmitButton{
@@ -134,8 +122,8 @@ h2{
 }
 
 .logo{
-    width: 20%;
-    height: 15%;
+    width: 70px;
+    height: 60px;
     border-radius: 50%;
 }
 
@@ -215,27 +203,12 @@ h2{
         border: solid 2px white;
         }
     }
-    /* @media only screen and (min-width:411px){
-        .right{
-            width: 90px;
-            height: 70px;  
-        }
-    } */
-
     @media only screen and (min-width:768px){
         .right{
             margin-top: 20px;
-            /* width: 90px;
-            height: 80px;   */
         }
     }
 
-    /* @media only screen and (min-width:1200px){
-        .right{
-            width: 150px;
-            height: 125px;  
-        }
-    } */
 
 
 li{
@@ -280,6 +253,12 @@ li{
     margin-bottom: 20px;
 }
 
+@media only screen and (min-width:375px){
+    .currentQuestion{
+        font-size: 40px;
+    }
+}
+
 @media only screen and (min-width:700px){
     .currentQuestion{
         font-size: 50px;
@@ -290,6 +269,14 @@ li{
     text-align: center;
 }
 
+@media only screen and (min-width: 1000px){
+#possibleAnswers1, #possibleAnswers2, #possibleAnswers3, #possibleAnswers4{
+    height: 20px;
+    width: 50px; 
+    }
+}
+
+
 label{
     font-family: 'Acme', sans-serif;
     font-size: 15px;
@@ -297,11 +284,18 @@ label{
     color: lightgray;
 }
 
-@media only screen and (min-width:700px){
+@media only screen and (min-width:375px){
     label{
         font-size: 25px;
     }
 }
+
+@media only screen and (min-width:1000px){
+    label{
+        font-size: 40px;
+    }
+}
+
 
 .scoreCounter{
     margin-top: 10px;
@@ -321,6 +315,13 @@ label{
     background-image: linear-gradient(to right, rgb(57, 57, 131) , lightgray);
 }
 
+@media only screen and (min-width:411px){
+    .quizCounter{
+        font-size: 30px;
+        
+    }
+}
+
 @media only screen and (min-width:700px){
     .quizCounter{
         font-size: 35px;
@@ -332,23 +333,39 @@ label{
 .questionsubmitButton{
     margin-left: auto;
     margin-right: auto;
-    padding: 5px 10%;
+    /* padding: 5px 10%; */
     margin-top: 10px;
     font-size: 20px;
-    /* padding-left: 10%;
-    padding-right: 10%; */
+    padding-left: 15px;
+    padding-right: 15px;
     background-color: green;
-    width: 50%;
+    /* width: 50%; */
 }
+
+@media only screen and (min-width: 375px){
+    .questionsubmitButton{
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    .questionsubmitButton{
+        font-size: 40px;
+    }
+}
+
 
 /*-------------------------------------------------------------------------------------------*/
 /*-------------------------------------Correct Screen-----------------------------------------*/
 .correct{
+    margin:0;
     background-image: url("https://kenikin.com/w/destiny-Wallpaper-HD-number-J5A.jpg");
     background-position: center center;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-size: cover;
+    min-height: 100%
 }
+
 
 html{
     height: 100%;
@@ -418,11 +435,11 @@ html{
 .submitButton{
     margin-left: auto;
     margin-right: auto;
-    padding: 5px;
+    /* padding: 5px, 15px; */
     margin-top: 10px;
     font-size: 20px;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 15px;
+    padding-right: 15px;
     background-color: green;
     width: 50%;
 }
@@ -435,6 +452,7 @@ html{
 /*-------------------------------------------------------------------------------------------*/
 /*------------------------------------Incorrect Screen----------------------------------------*/
 .incorrect{
+    margin: 0;
     background-image: url("http://markinternational.info/data/out/237/220755596-destiny-wallpaper-hd.jpg");
     background-position: center center;
     background-repeat: no-repeat;
