@@ -1,7 +1,8 @@
 /*------------------------------------Welcome Screen Header-----------------------------------*/
 .OpeningPage{
     height: 100%;
-    background-image: url("https://cdn.mos.cms.futurecdn.net/HuGGeENt6kGyixe3hT9tnY-970-80.jpg");
+    background: url(https://cdn.mos.cms.futurecdn.net/HuGGeENt6kGyixe3hT9tnY-970-80.jpg)no-repeat center center fixed;
+    background-size: cover;
     margin: auto;
 }
 
@@ -359,8 +360,12 @@ label{
 /*-------------------------------------Correct Screen-----------------------------------------*/
 .correct{
     margin:0;
-    background-image: url("https://kenikin.com/w/destiny-Wallpaper-HD-number-J5A.jpg");
-    background-position: center center;
+    background: url(https://kenikin.com/w/destiny-Wallpaper-HD-number-J5A.jpg) no-repeat center center fixed;
+    background-size: cover;
+
+
+    /* background-image: url("https://kenikin.com/w/destiny-Wallpaper-HD-number-J5A.jpg");
+    background-position: center center; */
     /* background-repeat: no-repeat; */
     background-size: cover;
     min-height: 100%
@@ -384,6 +389,13 @@ html{
     animation-duration: 4s; */
 }
 
+@media only screen and (min-width: 750px){
+    .correctTitle{
+        font-size: 100px;
+    }
+}
+
+
 @media only screen and (min-width: 1150px){
     .correctTitle{
         font-size: 100px;
@@ -396,11 +408,14 @@ html{
     font-weight: bold;
     margin-top: 100px;
 }
-@media only screen and (min-width: 1300px){
+
+@media only screen and (min-width: 750px){
     .correctCounter, .incorrectCounter{
         font-size: 45px;
     }
 }
+
+
 
 .correctScore,.wrong{
     background-image: linear-gradient(to right, rgb(187, 187, 211) , rgb(143, 226, 147, .50));
@@ -418,11 +433,12 @@ html{
     font-size: 25px;
 }
 
-@media only screen and (min-width: 1300px){
+@media only screen and (min-width: 750px){
     .lore, .givenAnswer{
         font-size: 45px;
     }
 }
+
 
 .correctScore{
     font-weight: bold;
@@ -443,31 +459,43 @@ html{
     background-color: green;
     width: 50%;
 }
-@media only screen and (min-width: 1300px){
+
+@media only screen and (min-width: 750px){
     .submitButton{
         font-size: 40px;
     }
 }
 
+
 /*-------------------------------------------------------------------------------------------*/
 /*------------------------------------Incorrect Screen----------------------------------------*/
 .incorrect{
     margin: 0;
-    background-image: url("http://markinternational.info/data/out/237/220755596-destiny-wallpaper-hd.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
+    background: url(http://markinternational.info/data/out/237/220755596-destiny-wallpaper-hd.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 
 .incorrectTitle{
     text-align: center;
     font-size: 50px;
-    margin-top: 10px;
+    margin-top: 30px;
     margin-bottom: 0px;
     text-decoration: underline;
-    color: rgba(141, 12, 12, 0.76);
+    color: rgba(212, 76, 76, 0.76);
     padding: 0px;
     font-family: 'Abel', sans-serif;
+}
+
+@media only screen and (min-width: 768px){
+    .incorrectTitle{
+        font-size: 60px;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    .incorrectTitle{
+        font-size: 80px;
+    }
 }
 
 /* .incorrectLogoLeft{
@@ -499,7 +527,16 @@ html{
 /* ------------------------------------------------------------------------------------------ */
 /*----------------------------------------End of Game-----------------------------------------*/
 .endGame{
-    font-size: 65px;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+@media only screen and (min-width: 550px){
+    .endGame{
+        padding-top: 6px;
+        margin-top: 0;
+    }
 }
 
 .ready{
@@ -508,16 +545,25 @@ html{
     background-image: url("https://data.whicdn.com/images/21060713/large.jpg");
     background-size: cover;
     color: lightgoldenrodyellow;
+    margin-top: 100px;
     /* border-radius: 25%; */
 }
 
+@media only screen and (min-width: 700px){
+    .ready{
+        margin-top: 0;
+    } 
+}
+
 .resetButton{
-    margin-left: 35%;
-    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding: 5px, 15px; */
     margin-top: 10px;
     font-size: 20px;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: green;
 }
 /*--------------------------------------------------------------------------------------------*/
 /*--------------------------------------KeyFrames---------------------------------------------*/

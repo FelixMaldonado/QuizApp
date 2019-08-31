@@ -105,14 +105,20 @@ function renderEndGame(){
     $('.newPage').remove();
     $('body').attr('class', 'OpeningPage');
     $('.OpeningPage').append('<div class = newPage><header class="header">' +
-    '<h1 class="greeting"><img class="logo left" src="https://cdn.images.express.co.uk/img/dynamic/143/590x/Destiny-s-Iron-Banner-returns-for-Rise-of-Iron-717946.jpg" alt="Guardians Assembled">All questions completed<img class="logo right" src="https://i0.wp.com/metro.co.uk/wp-content/uploads/2017/07/d2_pvp_heroic_02_1500378118.jpg?quality=90&strip=all&zoom=1&resize=644%2C362&ssl=1" alt="Destiny Logo"></h1>' +
+    '<h1 class="greeting"><img class="logo left" src="https://cdn.images.express.co.uk/img/dynamic/143/590x/Destiny-s-Iron-Banner-returns-for-Rise-of-Iron-717946.jpg" alt="Guardians Assembled">All questions completed</h1>' +
+    '<div class="centeredLogo">'+
+    '<img class="logo right" src="https://i0.wp.com/metro.co.uk/wp-content/uploads/2017/07/d2_pvp_heroic_02_1500378118.jpg?quality=90&strip=all&zoom=1&resize=644%2C362&ssl=1" alt="Destiny Logo">'+
+'</div>'+
 '</header>'+
     '<main class="greetingMain">' +
         '<div class="ready">' +
             '<h2 class="endGame">Your score is:<br>' + rightScore + ' out of 10 correct<br>' + wrongScore + ' out of 10 incorrect</h2>' +
             '<h2 class="endGame">Would you like to play again?</h2>' +
-        '</div>' +      
-    '<input class="resetButton" type="submit" value="Reset Game">' +        
+        '</div>' +  
+        '<div class="buttonHolder">'+
+            '<input class="resetButton" type="submit" value="Reset Game">' +  
+        '</div>'+    
+          
 '</main></div>')
 };
 /*-------------------------------------------------------------------------------------------------------------------*/
